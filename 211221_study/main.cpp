@@ -1,10 +1,11 @@
 #include <stdio.h>
 
+//일단한줄추가
+
 int a = 0;
 int b = 0;
 
 int ask() {
-	printf("두 개의 숫자를 입력해주세요.\nex)4, 5 : ");
 	scanf("%d, %d",&a, &b);
 }
 
